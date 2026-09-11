@@ -1,0 +1,1 @@
+console.log("Egamberganova Sarvinoz portfolio sayti ishlayapti!");
