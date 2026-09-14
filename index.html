@@ -2,131 +2,131 @@
 <html lang="uz">
 <head>
     <meta charset="UTF-8">
-    <meta name="google-site-verification" content="u_HSieu_scg5oucT5VsFWcTQaAvWUb3ZvZBJioEGUVo" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Egamberganova Sarvinoz — Frontend Developer</title>
+    <title>Egamberganova Sarvinoz | Frontend Developer</title>
 
     <meta
         name="description"
-        content="Egamberganova Sarvinoz — Xorazm, Yangibozorlik frontend dasturchi. HTML, CSS va JavaScript bilan ishlaydi."
+        content="Egamberganova Sarvinoz — Frontend Developer. HTML, CSS va JavaScript bilan zamonaviy web loyihalar yarataman."
     >
-
-    <meta
-        name="robots"
-        content="index, follow"
-    >
-
-    <meta
-        name="author"
-        content="Egamberganova Sarvinoz"
-    >
-
-    <!-- Google uchun shaxs haqidagi ma'lumot -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Egamberganova Sarvinoz",
-        "jobTitle": "Frontend Developer",
-        "description": "Xorazm viloyati, Yangibozor tumanidan frontend dasturchi.",
-        "knowsAbout": [
-            "HTML",
-            "CSS",
-            "JavaScript"
-        ],
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Yangibozor",
-            "addressRegion": "Xorazm",
-            "addressCountry": "UZ"
-        }
-    }
-    </script>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <h2>Sarvinoz.</h2>
+    <!-- NAVBAR -->
+    <header class="header">
+        <nav class="navbar">
 
-        <nav>
-            <a href="#about">Men haqimda</a>
-            <a href="#skills">Ko‘nikmalar</a>
-            <a href="#project">Loyiham</a>
+            <a href="#home" class="logo">
+                Sarvinoz<span>.</span>
+            </a>
+
+            <div class="nav-links">
+                <a href="#home">Bosh sahifa</a>
+                <a href="#about">Men haqimda</a>
+                <a href="#skills">Ko‘nikmalar</a>
+                <a href="#projects">Loyihalar</a>
+                <a href="#contact">Bog‘lanish</a>
+            </div>
+
+            <button id="themeButton" class="theme-button" aria-label="Rang rejimini almashtirish">
+                🌙
+            </button>
+
         </nav>
     </header>
 
 
+    <!-- HERO -->
     <main>
 
-        <!-- ASOSIY QISM -->
-        <section class="hero">
+        <section id="home" class="hero">
 
-            <p>Salom, men</p>
+            <div class="hero-content">
 
-            <h1>Egamberganova Sarvinoz</h1>
+                <p class="hello">Salom! Men</p>
 
-            <h2>Frontend Developer</h2>
+                <h1>
+                    Egamberganova
+                    <span>Sarvinoz</span>
+                </h1>
 
-            <p>
-                Men Xorazm viloyati, Yangibozor tumanidan
-                frontend dasturchiman.
-            </p>
+                <h2>
+                    <span id="typingText"></span>
+                </h2>
 
-            <a href="#about" class="button">
-                Men haqimda
-            </a>
+                <p class="hero-text">
+                    Zamonaviy va foydalanuvchiga qulay web sahifalar
+                    yaratishga qiziqadigan frontend dasturchiman.
+                </p>
 
-        </section>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">
+                        Loyihalarim →
+                    </a>
 
-
-        <!-- MEN HAQIMDA -->
-        <section id="about">
-
-            <h2>Men haqimda</h2>
-
-            <p>
-                Mening ismim Egamberganova Sarvinoz.
-                Men Xorazm viloyati, Yangibozor tumanidanman.
-            </p>
-
-            <p>
-                Frontend dasturlashga qiziqaman va
-                zamonaviy web-saytlar yaratishni o‘rganmoqdaman.
-            
-            </p>
-            <p>
-                Mahallam IT loyihasi ustida ishlayapman
-
-            </p>
-
-        </section>
-
-
-        <!-- KO'NIKMALAR -->
-        <section id="skills">
-
-            <h2>Ko‘nikmalarim</h2>
-
-            <div class="skills">
-
-                <div>
-                    <h3>HTML</h3>
-                    <p>Web-sahifa strukturasi.</p>
+                    <a href="#about" class="btn secondary-btn">
+                        Men haqimda
+                    </a>
                 </div>
 
-                <div>
-                    <h3>CSS</h3>
-                    <p>Web-sahifa dizayni.</p>
+                <div class="location">
+                    📍 Xorazm, Yangibozor
                 </div>
 
-                <div>
-                    <h3>JavaScript</h3>
-                    <p>Interaktiv web-saytlar.</p>
+            </div>
+
+
+            <div class="hero-card">
+
+                <div class="code-window">
+
+                    <div class="window-top">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="code">
+                        <p>
+                            <span class="purple">const</span>
+                            developer =
+                        </p>
+
+                        <p class="indent">
+                            {
+                        </p>
+
+                        <p class="indent-2">
+                            name:
+                            <span class="green">
+                                "Sarvinoz"
+                            </span>,
+                        </p>
+
+                        <p class="indent-2">
+                            profession:
+                            <span class="green">
+                                "Frontend Developer"
+                            </span>,
+                        </p>
+
+                        <p class="indent-2">
+                            skills:
+                            <span class="green">
+                                ["HTML", "CSS", "JS"]
+                            </span>
+                        </p>
+
+                        <p class="indent">
+                            };
+                        </p>
+
+                    </div>
+
                 </div>
 
             </div>
@@ -134,29 +134,224 @@
         </section>
 
 
-        <!-- LOYIHA -->
-        <section id="project">
+        <!-- ABOUT -->
+        <section id="about" class="section">
 
-            <h2>Mahallam IT</h2>
+            <div class="section-title">
+                <p>01 — Men haqimda</p>
+                <h2>O‘zim haqimda</h2>
+            </div>
 
-            <p>
-                Mahallam IT — mahalla uchun raqamli
-                yechim yaratishga qaratilgan IT loyiha.
-            </p>
+            <div class="about-content">
+
+                <div class="about-text">
+
+                    <p>
+                        Men <strong>Egamberganova Sarvinoz</strong>,
+                        frontend dasturchiman. Web dasturlashga qiziqaman
+                        va o‘rgangan bilimlarimni amaliy loyihalarda
+                        sinab ko‘rishni yaxshi ko‘raman.
+                    </p>
+
+                    <p>
+                        Hozirda HTML, CSS va JavaScript yordamida
+                        zamonaviy web sahifalar yaratish ustida ishlayapman.
+                        Har bir yangi loyiha orqali tajribamni oshirib
+                        borishni maqsad qilganman.
+                    </p>
+
+                    <p>
+                        Kelajakdagi maqsadim — kuchli frontend dasturchi
+                        bo‘lish va foydali IT loyihalar yaratish.
+                    </p>
+
+                </div>
+
+                <div class="about-box">
+
+                    <div class="info-item">
+                        <span>Ism</span>
+                        <strong>Egamberganova Sarvinoz</strong>
+                    </div>
+
+                    <div class="info-item">
+                        <span>Yo‘nalish</span>
+                        <strong>Frontend Development</strong>
+                    </div>
+
+                    <div class="info-item">
+                        <span>Joylashuv</span>
+                        <strong>Xorazm, Yangibozor</strong>
+                    </div>
+
+                    <div class="info-item">
+                        <span>Asosiy texnologiyalar</span>
+                        <strong>HTML · CSS · JavaScript</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS -->
+        <section id="skills" class="section skills-section">
+
+            <div class="section-title">
+                <p>02 — Ko‘nikmalar</p>
+                <h2>Men nimalarni bilaman?</h2>
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <div class="skill-icon">HTML</div>
+                    <h3>HTML</h3>
+                    <p>
+                        Web sahifaning tuzilishini yaratish
+                        va semantik HTML bilan ishlash.
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">CSS</div>
+                    <h3>CSS</h3>
+                    <p>
+                        Chiroyli dizayn, animatsiya va
+                        responsive sahifalar yaratish.
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">JS</div>
+                    <h3>JavaScript</h3>
+                    <p>
+                        Saytga interaktivlik va foydalanuvchi
+                        bilan ishlaydigan funksiyalar qo‘shish.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section">
+
+            <div class="section-title">
+                <p>03 — Loyihalar</p>
+                <h2>Mening loyihalarim</h2>
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        01
+                    </div>
+
+                    <div class="project-content">
+
+                        <span class="project-label">
+                            IT loyiha
+                        </span>
+
+                        <h3>Mahallam IT</h3>
+
+                        <p>
+                            Mahalladagi muammolarni zamonaviy
+                            texnologiyalar yordamida hal qilishga
+                            qaratilgan loyiha.
+                        </p>
+
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        02
+                    </div>
+
+                    <div class="project-content">
+
+                        <span class="project-label">
+                            Personal project
+                        </span>
+
+                        <h3>Shaxsiy portfolio</h3>
+
+                        <p>
+                            O‘zim haqimda ma’lumotlar, ko‘nikmalarim
+                            va loyihalarim joylashtirilgan shaxsiy
+                            portfolio web sayti.
+                        </p>
+
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+        <section id="contact" class="section contact-section">
+
+            <div class="section-title">
+                <p>04 — Bog‘lanish</p>
+                <h2>Men bilan bog‘laning</h2>
+            </div>
+
+            <div class="contact-box">
+
+                <p>
+                    Loyiha yoki hamkorlik haqida gaplashmoqchi
+                    bo‘lsangiz, men bilan bog‘lanishingiz mumkin.
+                </p>
+
+                <a
+                    href="mailto:sarvinoz@example.com"
+                    class="btn primary-btn"
+                >
+                    Email orqali bog‘lanish →
+                </a>
+
+            </div>
 
         </section>
 
     </main>
 
 
-    <footer>
+    <!-- FOOTER -->
+    <footer class="footer">
 
         <p>
             © 2026 Egamberganova Sarvinoz
         </p>
 
         <p>
-            Xorazm · Yangibozor · Frontend Developer
+            Frontend Developer
         </p>
 
     </footer>
