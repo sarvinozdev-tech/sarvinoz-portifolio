@@ -283,3 +283,25 @@ footer {
         grid-template-columns: 1fr !important;
     }
 }
+body.light-mode {
+    background: #f5f7fb;
+    color: #172033;
+}
+
+body.light-mode header {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+body.light-mode h1,
+body.light-mode h2,
+body.light-mode h3,
+body.light-mode p {
+    color: #172033;
+}
+
+body.light-mode .skill-card,
+body.light-mode .project-card,
+body.light-mode .contact-box {
+    background: rgba(255, 255, 255, 0.9);
+    border-color: rgba(0, 0, 0, 0.1);
+}
