@@ -196,3 +196,18 @@ footer {
     font-size: 28px;
   }
 }
+.project-button {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 12px 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(135deg, #6366f1, #06b6d4);
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.project-button:hover {
+    transform: translateY(-4px);
+}
